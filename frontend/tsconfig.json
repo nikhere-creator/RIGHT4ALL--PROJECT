@@ -1,0 +1,50 @@
+{
+  /**
+   * TypeScript Configuration for Right4All Frontend
+   * 
+   * Compiler settings for the React frontend application.
+   * Configures modern JavaScript features, React JSX support, and path aliases.
+   * 
+   * @file tsconfig.json
+   */
+  "compilerOptions": {
+    // Target ECMAScript version for modern browsers
+    "target": "ES2020",
+    // Use modern class field definitions
+    "useDefineForClassFields": true,
+    // Standard library features including DOM APIs
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    // Modern module system for bundlers
+    "module": "ESNext",
+    // Skip type checking of declaration files
+    "skipLibCheck": true,
+    // Module resolution strategy for bundlers
+    "moduleResolution": "bundler",
+    // Allow importing JSON modules
+    "resolveJsonModule": true,
+    // Ensure each file can be safely transpiled independently
+    "isolatedModules": true,
+    // Don't emit files (Vite handles bundling)
+    "noEmit": true,
+    // React JSX transform for modern React
+    "jsx": "react-jsx",
+    // Enable all strict type-checking options
+    "strict": true,
+    // Base directory for path resolution
+    "baseUrl": ".",
+    // Path aliases for cleaner imports
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  // Files to include in compilation
+  "include": [
+    "src"
+  ]
+}

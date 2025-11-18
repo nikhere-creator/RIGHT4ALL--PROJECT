@@ -1,0 +1,418 @@
+{
+  "summary": {
+    "testDate": "2025-10-10T15:18:33.435Z",
+    "durationMinutes": "4.61",
+    "totalQuestions": 35,
+    "successfulResponses": 29,
+    "failedResponses": 6,
+    "accuracyRate": "82.9",
+    "averageResponseTime": "7511",
+    "totalTestTime": "4.61 minutes"
+  },
+  "performanceByCategory": {
+    "Wage Rights": {
+      "accuracy": "85.7",
+      "totalQuestions": 7,
+      "successful": 6
+    },
+    "Working Conditions": {
+      "accuracy": "100.0",
+      "totalQuestions": 7,
+      "successful": 7
+    },
+    "Legal Rights": {
+      "accuracy": "42.9",
+      "totalQuestions": 7,
+      "successful": 3
+    },
+    "Living Conditions": {
+      "accuracy": "85.7",
+      "totalQuestions": 7,
+      "successful": 6
+    },
+    "Support Organizations": {
+      "accuracy": "100.0",
+      "totalQuestions": 7,
+      "successful": 7
+    }
+  },
+  "performanceByLanguage": {
+    "en": {
+      "accuracy": "86.7",
+      "totalQuestions": 15,
+      "successful": 13
+    },
+    "ms": {
+      "accuracy": "80.0",
+      "totalQuestions": 5,
+      "successful": 4
+    },
+    "ne": {
+      "accuracy": "80.0",
+      "totalQuestions": 5,
+      "successful": 4
+    },
+    "hi": {
+      "accuracy": "100.0",
+      "totalQuestions": 5,
+      "successful": 5
+    },
+    "bn": {
+      "accuracy": "60.0",
+      "totalQuestions": 5,
+      "successful": 3
+    }
+  },
+  "detailedResults": [
+    {
+      "question": "What is the minimum wage in Malaysia?",
+      "language": "en",
+      "category": "Wage Rights",
+      "timestamp": "2025-10-10T15:18:33.435Z",
+      "status": "success",
+      "responseTime": 4862,
+      "answer": "The minimum wage in Malaysia is RM 1,700 per month. This applies to all workers including migrant workers and is effective as of February 2025.",
+      "error": ""
+    },
+    {
+      "question": "How is overtime pay calculated in Malaysia?",
+      "language": "en",
+      "category": "Wage Rights",
+      "timestamp": "2025-10-10T15:18:39.299Z",
+      "status": "success",
+      "responseTime": 8710,
+      "answer": "Overtime pay in Malaysia is calculated at 1.5 times your hourly rate.\n\nTo calculate your overtime pay:\nFirst, find your daily wage: Monthly salary ÷ 26 days\nThen, find your hourly rate: Daily wage ÷ 8 hours\nFinally, calculate overtime pay: Hourly rate × 1.5 × Number of overtime hours\n\nFor example, if your monthly salary is RM 1,700:\nDaily wage = 1700 ÷ 26 = RM 65.38\nHourly rate = 65.38 ÷ 8 = RM 8.17\nOvertime pay per hour = 8.17 × 1.5 = RM 12.26\n\nIf you work 3 hours overtime, you would earn 12.26 × 3 = RM 36.78 in overtime pay.",
+      "error": ""
+    },
+    {
+      "question": "मलेशिया में न्यूनतम वेतन क्या है?",
+      "language": "hi",
+      "category": "Wage Rights",
+      "timestamp": "2025-10-10T15:18:49.011Z",
+      "status": "success",
+      "responseTime": 8184,
+      "answer": "मलेशिया में वर्तमान न्यूनतम वेतन 1,500 रिंगित प्रति माह है। यह दर पूरे देश में लागू है और सभी क्षेत्रों के लिए समान है।",
+      "error": ""
+    },
+    {
+      "question": "मलेशियामा ओभरटाइम भुक्तानी कसरी गणना गरिन्छ?",
+      "language": "ne",
+      "category": "Wage Rights",
+      "timestamp": "2025-10-10T15:18:58.198Z",
+      "status": "success",
+      "responseTime": 10515,
+      "answer": "मलेशियामा ओभरटाइम भुक्तानी यसरी गणना गरिन्छ:\nओभरटाइम दर तपाईंको घण्टाको दरको १.५ गुणा हुन्छ। \nतपाईंको घण्टाको दर = (मासिक तलब ÷ २६ दिन) ÷ ८ घण्टा।\nओभरटाइम भुक्तानी = घण्टाको दर × १.५ × ओभरटाइम घण्टाको संख्या।\n\nबिदाको दिन काम गर्दा, दर घण्टाको दरको २.० गुणा हुन्छ।\nसार्वजनिक बिदाको दिन काम गर्दा, दर घण्टाको दरको ३.० गुणा हुन्छ।",
+      "error": ""
+    },
+    {
+      "question": "Apakah gaji minimum di Malaysia?",
+      "language": "ms",
+      "category": "Wage Rights",
+      "timestamp": "2025-10-10T15:19:09.715Z",
+      "status": "success",
+      "responseTime": 4167,
+      "answer": "Gaji minimum di Malaysia adalah RM 1,700 sebulan mulai Februari 2025. Ini terpakai kepada semua pekerja termasuk pekerja migran di semua sektor dan wilayah.",
+      "error": ""
+    },
+    {
+      "question": "মালয়েশিয়ায় সর্বনিম্ন মজুরি কত?",
+      "language": "bn",
+      "category": "Wage Rights",
+      "timestamp": "2025-10-10T15:19:14.885Z",
+      "status": "failed",
+      "responseTime": 6,
+      "answer": "I'm sorry, I can only answer questions about migrant workers, labour rights, wages, and working conditions in Malaysia. Please visit the Support page for other inquiries.",
+      "error": "Invalid or off-topic response"
+    },
+    {
+      "question": "Can my employer deduct money from my salary?",
+      "language": "en",
+      "category": "Wage Rights",
+      "timestamp": "2025-10-10T15:19:15.892Z",
+      "status": "success",
+      "responseTime": 4438,
+      "answer": "Yes, employers can only make deductions from your salary for specific reasons allowed by law. These include EPF contributions, SOCSO payments, income tax, and other deductions with your written consent for approved purposes. Illegal deductions can be reported to the Labour Department.",
+      "error": ""
+    },
+    {
+      "question": "How many hours can I work per day in Malaysia?",
+      "language": "en",
+      "category": "Working Conditions",
+      "timestamp": "2025-10-10T15:19:21.332Z",
+      "status": "success",
+      "responseTime": 3634,
+      "answer": "Under the Employment Act 1955, the standard working hours are 8 hours per day or 48 hours per week. Any work beyond these hours is considered overtime and must be compensated accordingly.",
+      "error": ""
+    },
+    {
+      "question": "How many days of annual leave am I entitled to?",
+      "language": "en",
+      "category": "Working Conditions",
+      "timestamp": "2025-10-10T15:19:25.969Z",
+      "status": "success",
+      "responseTime": 4346,
+      "answer": "Under the Employment Act, you are entitled to paid annual leave based on years of service:\n\nLess than 2 years: 8 days\n2-5 years: 12 days\nMore than 5 years: 16 days",
+      "error": ""
+    },
+    {
+      "question": "मलेशिया में मैं प्रतिदिन कितने घंटे काम कर सकता हूं?",
+      "language": "hi",
+      "category": "Working Conditions",
+      "timestamp": "2025-10-10T15:19:31.317Z",
+      "status": "success",
+      "responseTime": 5811,
+      "answer": "मलेशिया में, रोजाना काम के घंटे 8 घंटे या सप्ताह में 48 घंटे से अधिक नहीं होने चाहिए। इन घंटों से अधिक काम करने पर ओवरटाइम भुगतान मिलना चाहिए।",
+      "error": ""
+    },
+    {
+      "question": "मेरो वार्षिक छुट्टीको अधिकार कति दिन हो?",
+      "language": "ne",
+      "category": "Working Conditions",
+      "timestamp": "2025-10-10T15:19:38.129Z",
+      "status": "success",
+      "responseTime": 7217,
+      "answer": "तपाईंको वार्षिक छुट्टीको अधिकार निम्नानुसार छ:\n- २ वर्ष भन्दा कम सेवा: ८ दिन\n- २ देखि ५ वर्ष सेवा: १२ दिन\n- ५ वर्ष भन्दा बढी सेवा: १६ दिन\n\nयो भत्ता Employment Act को Section 60E अनुसार दिइन्छ।",
+      "error": ""
+    },
+    {
+      "question": "Berapa jam saya boleh bekerja sehari di Malaysia?",
+      "language": "ms",
+      "category": "Working Conditions",
+      "timestamp": "2025-10-10T15:19:46.348Z",
+      "status": "success",
+      "responseTime": 3916,
+      "answer": "Di bawah Akta Kerja 1955, jam kerja standard adalah 8 jam sehari atau 48 jam seminggu. Sebarang kerja melebihi jam ini dianggap sebagai kerja lebih masa dan mesti dibayar dengan sewajarnya.",
+      "error": ""
+    },
+    {
+      "question": "মালয়েশিয়ায় আমি প্রতিদিন কত ঘন্টা কাজ করতে পারি?",
+      "language": "bn",
+      "category": "Working Conditions",
+      "timestamp": "2025-10-10T15:19:51.266Z",
+      "status": "success",
+      "responseTime": 5445,
+      "answer": "মালয়েশিয়ায় কর্মঘণ্টা সম্পর্কে আইন অনুযায়ী, আপনি প্রতিদিন ৮ ঘন্টা বা সপ্তাহে ৪৮ ঘন্টার বেশি কাজ করতে পারবেন না। এই সময়ের বেশি কাজ করলে তা ওভারটাইম হিসেবে গণ্য হবে এবং তার জন্য অতিরিক্ত মজুরি পাওয়ার অধিকার আপনার রয়েছে।",
+      "error": ""
+    },
+    {
+      "question": "What are my rights for sick leave?",
+      "language": "en",
+      "category": "Working Conditions",
+      "timestamp": "2025-10-10T15:19:57.713Z",
+      "status": "success",
+      "responseTime": 11265,
+      "answer": "Under Malaysian employment law, your sick leave rights depend on your length of service and the type of illness.\n\nIf you have been employed for less than two years, you are entitled to 14 days of paid sick leave per year.\nIf you have been employed for two years or more but less than five years, you are entitled to 18 days of paid sick leave per year.\nIf you have been employed for five years or more, you are entitled to 22 days of paid sick leave per year.\n\nFor hospitalization, you are entitled to up to 60 days of paid sick leave per year, regardless of your length of service.\n\nTo use your sick leave, you must inform your employer and provide a medical certificate from a registered medical practitioner. Your employer is required to pay your wages for the approved sick leave days.",
+      "error": ""
+    },
+    {
+      "question": "Can my employer keep my passport?",
+      "language": "en",
+      "category": "Legal Rights",
+      "timestamp": "2025-10-10T15:20:09.980Z",
+      "status": "success",
+      "responseTime": 4133,
+      "answer": "No. It is illegal for employers to hold workers' passports. Your passport is your personal property and must be in your possession at all times.",
+      "error": ""
+    },
+    {
+      "question": "What should I do if my employer confiscates my passport?",
+      "language": "en",
+      "category": "Legal Rights",
+      "timestamp": "2025-10-10T15:20:15.114Z",
+      "status": "success",
+      "responseTime": 7123,
+      "answer": "If your employer confiscates your passport, you should know that this is illegal. Your passport is your personal property and must be in your possession at all times.\n\nYou can take the following steps:\n1. Inform your employer that holding your passport is against the law and request its immediate return.\n2. If they refuse, you can file a complaint with the Labour Department at the nearest Labour Office.\n3. You may also seek assistance from your embassy or a migrant support organization.\n\nIt is important to act promptly to protect your rights and personal documents.",
+      "error": ""
+    },
+    {
+      "question": "क्या मेरा नियोक्ता मेरा पासपोर्ट रख सकते हैं?",
+      "language": "hi",
+      "category": "Legal Rights",
+      "timestamp": "2025-10-10T15:20:23.243Z",
+      "status": "success",
+      "responseTime": 4994,
+      "answer": "नहीं। नियोक्ताओं के लिए कर्मचारियों का पासपोर्ट रखना अवैध है। आपका पासपोर्ट आपकी व्यक्तिगत संपत्ति है और यह हमेशा आपके पास होना चाहिए।",
+      "error": ""
+    },
+    {
+      "question": "यदि मेरो नियोक्ताले मेरो राहदानी जफत गर्छ भने मैले के गर्नुपर्छ?",
+      "language": "ne",
+      "category": "Legal Rights",
+      "timestamp": "2025-10-10T15:20:29.239Z",
+      "status": "error",
+      "responseTime": 0,
+      "answer": "",
+      "error": "socket hang up"
+    },
+    {
+      "question": "Bolehkah majikan saya menyimpan pasport saya?",
+      "language": "ms",
+      "category": "Legal Rights",
+      "timestamp": "2025-10-10T15:20:46.089Z",
+      "status": "error",
+      "responseTime": 0,
+      "answer": "",
+      "error": "Error"
+    },
+    {
+      "question": "আমার নিয়োগকর্তা কি আমার পাসপোর্ট রাখতে পারেন?",
+      "language": "bn",
+      "category": "Legal Rights",
+      "timestamp": "2025-10-10T15:20:47.107Z",
+      "status": "error",
+      "responseTime": 0,
+      "answer": "",
+      "error": "Error"
+    },
+    {
+      "question": "What documents should I have for work in Malaysia?",
+      "language": "en",
+      "category": "Legal Rights",
+      "timestamp": "2025-10-10T15:20:48.111Z",
+      "status": "error",
+      "responseTime": 0,
+      "answer": "",
+      "error": "Error"
+    },
+    {
+      "question": "What are the accommodation standards for migrant workers?",
+      "language": "en",
+      "category": "Living Conditions",
+      "timestamp": "2025-10-10T15:20:49.137Z",
+      "status": "error",
+      "responseTime": 0,
+      "answer": "",
+      "error": "Error"
+    },
+    {
+      "question": "Can my employer charge me for accommodation?",
+      "language": "en",
+      "category": "Living Conditions",
+      "timestamp": "2025-10-10T15:20:50.143Z",
+      "status": "success",
+      "responseTime": 6622,
+      "answer": "No, your employer cannot charge you for accommodation if it is provided as part of your employment contract. According to the Employment Act, any deduction from your wages for accommodation must be agreed upon in writing beforehand. If your employer is making unauthorized deductions for accommodation, you can report this to the Labour Department.",
+      "error": ""
+    },
+    {
+      "question": "प्रवासी कामदारहरूको लागि आवास मानकहरू के हुन्?",
+      "language": "ne",
+      "category": "Living Conditions",
+      "timestamp": "2025-10-10T15:20:57.766Z",
+      "status": "success",
+      "responseTime": 10222,
+      "answer": "प्रवासी कामदारहरूको आवास मानकहरू निम्नानुसार हुन्छन्:\n\nकामदारहरूको आवास सफा, सुरक्षित र स्वस्थ हुनुपर्छ। प्रत्येक कामदारको लागि पर्याप्त स्थान हुनुपर्छ। आवासमा उचित हावा आउने, प्रकाश र पानीको व्यवस्था हुनुपर्छ। स्नानघर र शौचालय पर्याप्त संख्यामा हुनुपर्छ। आवास कामको स्थानबाट टाढा नभएको राम्रो हुन्छ। नियोक्ताले आवासको लागत कामदारबाट लिनु हुँदैन।",
+      "error": ""
+    },
+    {
+      "question": "क्या मेरा नियोक्ता मुझसे आवास के लिए शुल्क ले सकते हैं?",
+      "language": "hi",
+      "category": "Living Conditions",
+      "timestamp": "2025-10-10T15:21:08.990Z",
+      "status": "success",
+      "responseTime": 7318,
+      "answer": "हां, नियोक्ता आवास के लिए शुल्क ले सकते हैं, लेकिन यह आपके रोजगार अनुबंध में स्पष्ट रूप से उल्लिखित होना चाहिए। यदि आवास आपके वेतन का हिस्सा है, तो कटौती कानूनी सीमा के भीतर होनी चाहिए। किसी भी अनधिकृत कटौती की शिकायत आप श्रम विभाग में कर सकते हैं।",
+      "error": ""
+    },
+    {
+      "question": "Apakah piawaian penginapan untuk pekerja asing?",
+      "language": "ms",
+      "category": "Living Conditions",
+      "timestamp": "2025-10-10T15:21:17.311Z",
+      "status": "success",
+      "responseTime": 13295,
+      "answer": "Piawaian penginapan untuk pekerja asing di Malaysia ditetapkan di bawah Akta Pekerjaan 1955 dan Akta Pekerjaan (Piawaian Perumahan, Penginapan dan Kemudahan Pekerja) 1990.\n\nKemudahan asas yang perlu disediakan termasuk:\n- Bilik tidur yang bersih dan mempunyai ruang mencukupi\n- Bilik air dan tandas yang bersih\n- Bekalan air bersih dan minuman\n- Bekalan elektrik\n- Kemudahan memasak dan penyimpanan makanan\n- Pengudaraan dan pencahayaan yang mencukupi\n- Tempat berehat\n- Kemudahan keselamatan seperti alat pemadam api\n\nMajikan bertanggungjawab menyediakan penginapan yang memenuhi piawaian kesihatan dan keselamatan. Jika penginapan tidak mematuhi piawaian, pekerja boleh membuat aduan kepada Jabatan Tenaga Kerja Semenanjung Malaysia (JTKSM).",
+      "error": ""
+    },
+    {
+      "question": "প্রবাসী শ্রমিকদের জন্য আবাসনের মান কী?",
+      "language": "bn",
+      "category": "Living Conditions",
+      "timestamp": "2025-10-10T15:21:31.609Z",
+      "status": "success",
+      "responseTime": 9278,
+      "answer": "মালয়েশিয়ায় প্রবাসী শ্রমিকদের আবাসনের জন্য নির্দিষ্ট মানদণ্ড রয়েছে। নিয়োগকর্তাদের অবশ্যই নিরাপদ, স্বাস্থ্যকর এবং মানসম্মত আবাসনের ব্যবস্থা করতে হবে। আবাসনে পর্যাপ্ত বাতাস চলাচল, বিশুদ্ধ পানির সরবরাহ, সঠিক স্যানিটেশন সুবিধা এবং উপযুক্ত ঘুমানোর জায়গা থাকতে হবে। প্রতি কর্মীর জন্য ন্যূনতম জায়গার প্রয়োজনীয়তা রয়েছে এবং আবাসন এলাকা পরিষ্কার-পরিচ্ছন্ন রাখতে হবে। যদি আপনার আবাসন এই মানদণ্ড পূরণ না করে, তাহলে আপনি শ্রম দপ্তরে অভিযোগ দায়ের করতে পারেন।",
+      "error": ""
+    },
+    {
+      "question": "What should I do about poor living conditions?",
+      "language": "en",
+      "category": "Living Conditions",
+      "timestamp": "2025-10-10T15:21:41.888Z",
+      "status": "success",
+      "responseTime": 7555,
+      "answer": "If your accommodation has poor living conditions, you should first report the issue to your employer and request improvements. If the employer does not take action, you can file a complaint with the Labour Department. They can inspect the accommodation to ensure it meets the legal standards for health, safety, and hygiene. It is helpful to have photos or other evidence of the poor conditions when you make your report.",
+      "error": ""
+    },
+    {
+      "question": "Where can I find NGOs that help migrant workers?",
+      "language": "en",
+      "category": "Support Organizations",
+      "timestamp": "2025-10-10T15:21:50.445Z",
+      "status": "success",
+      "responseTime": 13370,
+      "answer": "You can find NGOs that help migrant workers in several locations across Malaysia. Here are some organizations you can contact:\n\n1. Tenaganita - They provide support for migrant workers' rights, including legal aid and counseling. You can find them in Kuala Lumpur.\n\n2. Migrant Care Malaysia - This organization focuses on migrant worker protection and advocacy. They have an office in Selangor.\n\n3. SUARAM - While they work on broader human rights issues, they also assist migrant workers with rights violations.\n\n4. Malaysian Trades Union Congress (MTUC) - They help all workers, including migrants, with labor rights and disputes.\n\n5. Bar Council Malaysia - Their Legal Aid Centre provides free legal services to migrant workers.\n\nYou can search online for their contact details or visit their offices. Many of these organizations have hotlines and websites where you can get more information about their services.",
+      "error": ""
+    },
+    {
+      "question": "How can I file a complaint about my employer?",
+      "language": "en",
+      "category": "Support Organizations",
+      "timestamp": "2025-10-10T15:22:04.817Z",
+      "status": "success",
+      "responseTime": 6434,
+      "answer": "You can file a complaint about your employer at the nearest Labour Office. Bring your employment contract, payslips, and any other relevant documents. The Labour Department will investigate your complaint and help resolve the issue.",
+      "error": ""
+    },
+    {
+      "question": "प्रवासी कामदारहरूलाई मद्दत गर्ने गैर-सरकारी संस्थाहरू कहाँ पाउन सकिन्छ?",
+      "language": "ne",
+      "category": "Support Organizations",
+      "timestamp": "2025-10-10T15:22:12.253Z",
+      "status": "success",
+      "responseTime": 12594,
+      "answer": "मलेसियामा प्रवासी कामदारहरूलाई मद्दत गर्ने केही गैर-सरकारी संस्थाहरू यसप्रकार छन्:\n\n- टेनागानिटा (Tenaganita)\n- नोर्डिक (North-South Initiative)\n- माइग्रेन्ट केयर (Migrant Care)\n- मलेसियन ट्रेड युनियन कंग्रेस (MTUC)\n- एमनेस्टी इन्टरनेशनल मलेसिया\n\nयी संस्थाहरूले कानूनी सल्लाह, अधिकार शिक्षा, शिकायत समाधान र अन्य सेवाहरू प्रदान गर्छन्। तिनीहरूसँग सम्पर्क गर्न तिनीहरूको आधिकारिक वेबसाइट वा फोन नम्बरबाट जानकारी लिन सकिन्छ।",
+      "error": ""
+    },
+    {
+      "question": "मैं प्रवासी श्रमिकों की मदद करने वाले एनजीओ कहां पा सकता हूं?",
+      "language": "hi",
+      "category": "Support Organizations",
+      "timestamp": "2025-10-10T15:22:25.849Z",
+      "status": "success",
+      "responseTime": 12299,
+      "answer": "मलेशिया में प्रवासी श्रमिकों की मदद करने वाले कई एनजीओ हैं। आप निम्नलिखित संगठनों से संपर्क कर सकते हैं:\n\nटेनागानिटा - प्रवासी श्रमिकों के अधिकारों के लिए काम करती है\nमाइग्रन्ट केयर - प्रवासी श्रमिकों को कानूनी सहायता प्रदान करती है\nएफएनएम - फॉरेन नेशनल्स मैनेजमेंट कमिटी\nसुहेकम - प्रवासी श्रमिकों के कल्याण के लिए काम करती है\n\nये संगठन आपको कानूनी सलाह, शिकायत दर्ज करने में मदद, और अन्य सहायता प्रदान कर सकते हैं। आप इनकी वेबसाइट या फोन नंबर के माध्यम से संपर्क कर सकते हैं।",
+      "error": ""
+    },
+    {
+      "question": "Di mana saya boleh mencari NGO yang membantu pekerja asing?",
+      "language": "ms",
+      "category": "Support Organizations",
+      "timestamp": "2025-10-10T15:22:39.150Z",
+      "status": "success",
+      "responseTime": 6550,
+      "answer": "Anda boleh mencari NGO yang membantu pekerja asing di beberapa tempat berikut:\n\n1. Tenaganita - organisasi yang melindungi hak pekerja migran\n2. SUARAM - organisasi hak asasi manusia yang membantu pekerja asing\n3. Pusat Bantuan Pekerja Migran (Migrant Care Centre)\n4. Malaysian Trades Union Congress (MTUC) - memberikan bantuan kepada pekerja\n\nAnda juga boleh menghubungi Jabatan Tenaga Kerja atau mendapatkan maklumat melalui kedutaan negara asal anda di Malaysia.",
+      "error": ""
+    },
+    {
+      "question": "আমি কোথায় প্রবাসী শ্রমিকদের সাহায্য করে এমন এনজিও খুঁজে পেতে পারি?",
+      "language": "bn",
+      "category": "Support Organizations",
+      "timestamp": "2025-10-10T15:22:46.702Z",
+      "status": "success",
+      "responseTime": 8677,
+      "answer": "মালয়েশিয়ায় প্রবাসী শ্রমিকদের সাহায্য করে এমন বেশ কিছু এনজিও রয়েছে। আপনি নিম্নলিখিত সংস্থাগুলির সাথে যোগাযোগ করতে পারেন:\n\n- টেনাগানিটা (Tenaganita)\n- মাইগ্র্যান্ট কেয়ার (Migrant Care)  \n- বাংলাদেশ হাইকমিশন, কুয়ালালামপুর\n- আপনার দেশের দূতাবাস\n\nএই সংস্থাগুলি আইনি সহায়তা, শ্রমিক অধিকার, শ্রম সমস্যা সমাধান এবং অন্যান্য সহায়তা প্রদান করে। প্রয়োজনে আপনি সরাসরি বাংলাদেশ হাইকমিশনে যোগাযোগ করতে পারেন, তারা আপনাকে সঠিক নির্দেশনা দিতে পারবে।",
+      "error": ""
+    },
+    {
+      "question": "What is the Labour Department contact number?",
+      "language": "en",
+      "category": "Support Organizations",
+      "timestamp": "2025-10-10T15:22:56.381Z",
+      "status": "success",
+      "responseTime": 12360,
+      "answer": "The Labour Department of Malaysia can be contacted at their general line: 03-8886 5000.\n\nYou can also visit their official website for more specific contact details for different states or services. If you need help with a particular issue, it's best to call during office hours for assistance.",
+      "error": ""
+    }
+  ]
+}

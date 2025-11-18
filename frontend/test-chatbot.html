@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Chatbot API</title>
+</head>
+<body>
+    <h1>Test Chatbot API</h1>
+    <button onclick="testChatbot()">Test Chatbot</button>
+    <pre id="result"></pre>
+
+    <script>
+        async function testChatbot() {
+            const resultEl = document.getElementById('result');
+            resultEl.textContent = 'Loading...';
+
+            try {
+                const response = await fetch('http://localhost:3000/api/chatbot/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        question: 'What is the minimum wage?',
+                        language: 'en',
+                        sessionId: 'test123'
+                    })
+                });
+
+                const data = await response.json();
+                resultEl.textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                resultEl.textContent = 'Error: ' + error.message;
+            }
+        }
+    </script>
+</body>
+</html>

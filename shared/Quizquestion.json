@@ -1,0 +1,532 @@
+{
+  "complete_rights": {
+    "title": "Complete Rights",
+    "questions": [
+      {
+        "q": "What is the minimum monthly wage in Malaysia from Aug 2025?",
+        "options": ["RM1,500", "RM1,600", "RM1,700", "RM1,800"],
+        "answer": 2,
+        "explain": "Correct: From 1 Aug 2025, the minimum monthly wage is RM1,700 (Legal IDs 32–34). Other figures are outdated/wrong."
+      },
+      {
+        "q": "Maximum weekly working hours allowed?",
+        "options": ["40", "45", "48", "60"],
+        "answer": 1,
+        "explain": "Correct: 45 hours per week is the limit (Legal ID 15). More than this is unlawful except within OT rules."
+      },
+      {
+        "q": "Scenario: Your employer keeps your passport for “safety”. Is this legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Employers cannot keep workers’ passports; only proper authority can (Legal ID 35)."
+      },
+      {
+        "q": "How many paid public holidays must you get each year?",
+        "options": ["8", "10", "11", "12"],
+        "answer": 2,
+        "explain": "Correct: At least 11 paid public holidays, including 5 mandatory ones (Legal ID 70)."
+      },
+      {
+        "q": "What is the maximum monthly overtime limit?",
+        "options": ["60", "80", "104", "120"],
+        "answer": 2,
+        "explain": "Correct: Overtime is capped at 104 hours/month (Legal ID 1)."
+      },
+      {
+        "q": "Scenario: You worked 5 continuous hours without a break. Is this allowed?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: A 30-minute break is required after 5 continuous hours (Legal ID 15)."
+      },
+      {
+        "q": "Maximum wage deduction allowed per month?",
+        "options": ["30%", "40%", "50%", "60%"],
+        "answer": 2,
+        "explain": "Correct: Total deductions cannot exceed 50% of monthly wages (Legal ID 9)."
+      },
+      {
+        "q": "Scenario: Employer didn’t pay wages for 2 months. What should happen?",
+        "options": ["Nothing", "It’s an offence; court can order payment", "Wait longer", "Employer can decide"],
+        "answer": 1,
+        "explain": "Correct: Non-payment is an offence; authorities/courts can order payment and penalties (Legal IDs 26–30)."
+      }
+    ]
+  },
+  "wages_salary": {
+    "title": "Wages & Salary",
+    "questions": [
+      {
+        "q": "How often must wages be paid?",
+        "options": ["Weekly", "Monthly", "Every 2 months", "Whenever employer decides"],
+        "answer": 1,
+        "explain": "Correct: Wages must be paid at least once a month (Legal ID 4)."
+      },
+      {
+        "q": "Wages must be paid within how many days after the wage period ends?",
+        "options": ["3 days", "7 days", "14 days", "30 days"],
+        "answer": 1,
+        "explain": "Correct: Within 7 days after the wage period ends (Legal ID 6)."
+      },
+      {
+        "q": "Scenario: You worked half a month. How is pay calculated?",
+        "options": ["Employer decides any amount", "Monthly ÷ Days in period × Days worked", "Flat 50% deduction", "No pay"],
+        "answer": 1,
+        "explain": "Correct: Pay = Monthly wages ÷ Days in period × Days actually worked (Legal ID 5)."
+      },
+      {
+        "q": "Minimum daily wage (6-day week) from Aug 2025?",
+        "options": ["RM60.00", "RM65.38", "RM70.00", "RM78.46"],
+        "answer": 1,
+        "explain": "Correct: RM65.38 for 6-day week (Legal IDs 32–34)."
+      },
+      {
+        "q": "If wages are not paid on time, what is it?",
+        "options": ["No issue", "An offence by employer", "Optional payment", "Worker’s fault"],
+        "answer": 1,
+        "explain": "Correct: Failing to pay wages on time is an offence (Legal ID 29)."
+      },
+      {
+        "q": "Scenario: Employer pays wages in cash at a bar. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Payment at bars/shops is prohibited (Legal ID 14)."
+      },
+      {
+        "q": "Can employers charge interest on wage advances?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Charging interest or fees on wage advances is not allowed (Legal ID 13)."
+      },
+      {
+        "q": "Scenario: Employer fails to pay maternity allowance. What happens?",
+        "options": ["Nothing", "Court can order payment", "Worker loses rights", "Delay until next month"],
+        "answer": 1,
+        "explain": "Correct: Courts can order payment and penalties for violations (Legal ID 74)."
+      }
+    ]
+  },
+  "working_hours": {
+    "title": "Working Hours",
+    "questions": [
+      {
+        "q": "Maximum daily hours allowed (normal conditions)?",
+        "options": ["8", "10", "12", "14"],
+        "answer": 0,
+        "explain": "Correct: 8 hours/day (Legal ID 15)."
+      },
+      {
+        "q": "Maximum weekly hours allowed?",
+        "options": ["40", "45", "50", "60"],
+        "answer": 1,
+        "explain": "Correct: 45 hours/week (Legal ID 15)."
+      },
+      {
+        "q": "What break is required after 5 continuous hours?",
+        "options": ["No break", "15 minutes", "30 minutes", "45 minutes"],
+        "answer": 2,
+        "explain": "Correct: At least a 30-minute break (Legal ID 15)."
+      },
+      {
+        "q": "Scenario: Forced to work every weekly rest day. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: At least one rest day per week is mandatory (Legal ID 20)."
+      },
+      {
+        "q": "How many rest days per week are you entitled to?",
+        "options": ["1", "2", "0", "Employer decides"],
+        "answer": 0,
+        "explain": "Correct: At least one full rest day weekly (Legal ID 20)."
+      },
+      {
+        "q": "Scenario: You apply to employer for flexible work. Allowed?",
+        "options": ["Yes", "No"],
+        "answer": 0,
+        "explain": "Correct: Workers may apply for flexible hours/days/place (Legal ID 25)."
+      },
+      {
+        "q": "What’s the emergency daily maximum hours?",
+        "options": ["10", "12", "14", "No limit"],
+        "answer": 1,
+        "explain": "Correct: 12 hours/day cap in emergencies (Legal ID 15)."
+      },
+      {
+        "q": "Scenario: You worked 50 hours in a week. Legal?",
+        "options": ["Legal", "Illegal"],
+        "answer": 1,
+        "explain": "Correct: Exceeds 45 hours/week (Legal ID 15)."
+      }
+    ]
+  },
+  "workplace_rights": {
+    "title": "Workplace Rights",
+    "questions": [
+      {
+        "q": "Can your employer keep your passport?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Employers cannot hold passports; only proper authority can (Legal ID 35)."
+      },
+      {
+        "q": "Maximum fine for general labour violations (no specific penalty stated)?",
+        "options": ["RM10,000", "RM20,000", "RM50,000", "RM100,000"],
+        "answer": 2,
+        "explain": "Correct: Up to RM50,000 (Legal ID 31)."
+      },
+      {
+        "q": "Scenario: No safety helmet provided on site. Who is responsible?",
+        "options": ["Worker", "Employer", "Union", "NGO"],
+        "answer": 1,
+        "explain": "Correct: Employer must provide protective equipment (Legal ID 41)."
+      },
+      {
+        "q": "A safety & health committee is required at how many workers?",
+        "options": ["20", "30", "40", "50"],
+        "answer": 2,
+        "explain": "Correct: Required for ≥ 40 workers or when directed (Legal ID 44)."
+      },
+      {
+        "q": "Scenario: Unsafe electrical wiring in hostel. Who must fix it?",
+        "options": ["Employer", "Worker", "NGO", "Nobody"],
+        "answer": 0,
+        "explain": "Correct: Employer/accommodation provider must ensure safety (Legal ID 56/63)."
+      },
+      {
+        "q": "Who must report workplace accidents/dangerous incidents?",
+        "options": ["Employer", "Worker", "Police", "No need to report"],
+        "answer": 0,
+        "explain": "Correct: Employer must notify the nearest OSH office (Legal ID 45)."
+      },
+      {
+        "q": "Scenario: Hostel has no water supply. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Adequate water must be provided (Legal ID 63)."
+      },
+      {
+        "q": "Employees’ safety duty includes…",
+        "options": ["Nothing", "Only employer’s duty", "Care for own & others’ safety and follow rules", "Optional compliance"],
+        "answer": 2,
+        "explain": "Correct: Workers must take reasonable care and wear PPE; penalties apply for breaches (Legal ID 42)."
+      }
+    ]
+  },
+  "overtime_rules": {
+    "title": "Overtime Rules",
+    "questions": [
+      {
+        "q": "What is the maximum overtime hours per month?",
+        "options": ["60", "80", "104", "120"],
+        "answer": 2,
+        "explain": "Correct: Monthly cap is 104 hours (Legal ID 1)."
+      },
+      {
+        "q": "Who must pay for overtime, rest-day, and holiday work?",
+        "options": ["Employer", "Government", "Union", "Nobody"],
+        "answer": 0,
+        "explain": "Correct: Employer must pay; non-payment is an offence (Legal ID 2)."
+      },
+      {
+        "q": "Fine for general violations if no specific penalty is stated?",
+        "options": ["RM5,000", "RM20,000", "RM50,000", "RM100,000"],
+        "answer": 2,
+        "explain": "Correct: Up to RM50,000 (Legal ID 31)."
+      },
+      {
+        "q": "Scenario: You worked 120 OT hours this month. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Exceeds the 104-hour cap (Legal ID 1)."
+      },
+      {
+        "q": "Scenario: Employer refuses to pay OT. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Non-payment is an offence; court can order payment (Legal ID 2)."
+      },
+      {
+        "q": "If no penalty is specified for an offence, what applies?",
+        "options": ["Warning only", "RM10,000 fine", "RM50,000 fine", "No consequence"],
+        "answer": 2,
+        "explain": "Correct: General penalty up to RM50,000 (Legal ID 31)."
+      },
+      {
+        "q": "Scenario: You worked on a public holiday but got no extra pay. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Employers must pay for holiday work (Legal ID 2)."
+      },
+      {
+        "q": "What happens if an employer ignores a payment order?",
+        "options": ["Nothing", "Additional daily fines", "Worker pays fees", "Delay allowed"],
+        "answer": 1,
+        "explain": "Correct: Non-compliance can lead to extra fines until payment (Legal ID 26)."
+      }
+    ]
+  },
+  "overtime_rates": {
+    "title": "Overtime Rates",
+    "questions": [
+      {
+        "q": "Minimum overtime pay rate is…",
+        "options": ["Normal rate", "1.25×", "1.5×", "2×"],
+        "answer": 2,
+        "explain": "Correct: At least 1.5× the normal hourly rate (Legal ID 16)."
+      },
+      {
+        "q": "If you work more than half a rest day, you get…",
+        "options": ["1 day’s pay", "2 days’ pay", "1.5× hourly rate", "Normal pay"],
+        "answer": 1,
+        "explain": "Correct: More than half rest-day work = 2 days’ wages (Legal ID 22)."
+      },
+      {
+        "q": "Hourly rate calculation (monthly basis) is…",
+        "options": ["Monthly ÷ 30", "Monthly ÷ 26", "Weekly ÷ 7", "Monthly ÷ 20"],
+        "answer": 1,
+        "explain": "Correct: Monthly ÷ 26 (or weekly ÷ 6) (Legal ID 24)."
+      },
+      {
+        "q": "Scenario: Paid normal rate for overtime. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: OT must be paid at least 1.5× (Legal ID 16)."
+      },
+      {
+        "q": "Scenario: Worked half a rest day. What pay?",
+        "options": ["None", "1 day’s wages", "2 days’ wages", "Normal pay only"],
+        "answer": 1,
+        "explain": "Correct: Half rest-day work = 1 day’s wages (Legal ID 22)."
+      },
+      {
+        "q": "Scenario: Worked full rest day. What pay?",
+        "options": ["1 day’s wages", "2 days’ wages", "1.5× hourly rate", "Normal pay"],
+        "answer": 1,
+        "explain": "Correct: Full rest-day work = 2 days’ wages (Legal ID 22)."
+      },
+      {
+        "q": "Scenario: Overtime on a rest day. What pay?",
+        "options": ["Normal rate", "1.5×", "2× hourly rate", "No pay"],
+        "answer": 2,
+        "explain": "Correct: OT on rest day must be at least double hourly rate (Legal ID 22)."
+      },
+      {
+        "q": "Scenario: Employer calculates hourly rate as monthly ÷ 30. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Must use monthly ÷ 26 (Legal ID 24)."
+      }
+    ]
+  },
+  "housing_hostel": {
+    "title": "Housing & Hostel",
+    "questions": [
+      {
+        "q": "If you live at the workplace for ≥ 6 months, the land for food must be at least…",
+        "options": ["100 sqm", "150 sqm", "200 sqm", "250 sqm"],
+        "answer": 3,
+        "explain": "Correct: 250 square meters (Legal ID 47)."
+      },
+      {
+        "q": "If ≥100 workers live at site, employer must provide…",
+        "options": ["Nothing extra", "Community hall & recreation facilities", "Only clinic", "Only dorm rooms"],
+        "answer": 1,
+        "explain": "Correct: Community hall and recreation facilities are required (Legal ID 48)."
+      },
+      {
+        "q": "If no hospital is nearby, who must establish a clinic?",
+        "options": ["Government", "Employer", "Union", "NGO"],
+        "answer": 1,
+        "explain": "Correct: Employer must maintain a clinic with doctor visits (Legal ID 50)."
+      },
+      {
+        "q": "Must accommodation have a certificate?",
+        "options": ["Yes", "No"],
+        "answer": 0,
+        "explain": "Correct: Certificate for Accommodation is required (Legal ID 52)."
+      },
+      {
+        "q": "Scenario: Employer charges rent but not via wage deductions. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Rent/charges must be deducted via wages under prescribed conditions (Legal ID 55)."
+      },
+      {
+        "q": "Scenario: Employer uses an unfit building for housing. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Unfit buildings cannot be used for accommodation (Legal ID 56)."
+      },
+      {
+        "q": "Which utilities are required for housing?",
+        "options": ["None", "Only electricity", "Only water", "Water and electricity"],
+        "answer": 3,
+        "explain": "Correct: Adequate water and electricity must be provided (Legal ID 63)."
+      },
+      {
+        "q": "Scenario: Terminated with notice < 4 weeks; told to leave hostel today. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Worker generally has up to 4 weeks to vacate after short-notice termination (Legal ID 59)."
+      }
+    ]
+  },
+  "safety_health": {
+    "title": "Safety & Health",
+    "questions": [
+      {
+        "q": "Employer safety duties include…",
+        "options": ["Provide safe equipment and systems, training, emergency procedures", "Only pay on time", "Nothing specific", "Leave to workers"],
+        "answer": 0,
+        "explain": "Correct: Employers must ensure safety, training, safe systems, facilities, and emergency procedures (Legal ID 41)."
+      },
+      {
+        "q": "Employees must…",
+        "options": ["Ignore safety rules", "Care for own & others’ safety and wear PPE", "Never report hazards", "Choose any equipment"],
+        "answer": 1,
+        "explain": "Correct: Workers must cooperate on safety and wear PPE; penalties apply for breaches (Legal ID 42)."
+      },
+      {
+        "q": "Penalty for breaking employee safety duties?",
+        "options": ["No penalty", "RM2,000 fine or up to 3 months jail", "Only warning", "RM500 fine"],
+        "answer": 1,
+        "explain": "Correct: Fines up to RM2,000 or jail up to 3 months (Legal ID 42)."
+      },
+      {
+        "q": "When must a safety & health committee be set up?",
+        "options": ["10 workers", "20 workers", "40 workers", "100 workers"],
+        "answer": 2,
+        "explain": "Correct: Required for 40 or more workers or if directed (Legal ID 44)."
+      },
+      {
+        "q": "Who must report accidents/dangerous incidents?",
+        "options": ["Employer", "Worker", "Police", "Nobody"],
+        "answer": 0,
+        "explain": "Correct: Employer must notify the nearest OSH office (Legal ID 45)."
+      },
+      {
+        "q": "Scenario: Employer ignores fire safety. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Employers must take fire safety measures (Legal ID 38)."
+      },
+      {
+        "q": "Employer must prepare and update…",
+        "options": ["Payroll only", "Written safety & health policy", "No documents", "Advertising plan"],
+        "answer": 1,
+        "explain": "Correct: A written safety and health policy must be prepared and communicated (Legal ID 43)."
+      },
+      {
+        "q": "Scenario: Infectious disease outbreak at work. Employer must…",
+        "options": ["Do nothing", "Provide segregation and pay costs as directed", "Close business only", "Ask workers to stay home without pay"],
+        "answer": 1,
+        "explain": "Correct: Provide place for safe segregation and bear maintenance/treatment costs as directed (Legal ID 46)."
+      }
+    ]
+  },
+  "rest_holiday": {
+    "title": "Rest & Holidays",
+    "questions": [
+      {
+        "q": "Maternity leave entitlement (days)?",
+        "options": ["60", "90", "98", "100"],
+        "answer": 2,
+        "explain": "Correct: 98 consecutive days; allowance subject to qualifying conditions (Legal ID 66)."
+      },
+      {
+        "q": "Paternity leave entitlement (days)?",
+        "options": ["3", "5", "7", "10"],
+        "answer": 2,
+        "explain": "Correct: 7 consecutive days for eligible married male employees (Legal ID 73)."
+      },
+      {
+        "q": "Minimum paid public holidays per year?",
+        "options": ["8", "10", "11", "12"],
+        "answer": 2,
+        "explain": "Correct: At least 11 paid public holidays (Legal ID 70)."
+      },
+      {
+        "q": "Annual leave for service ≥ 5 years?",
+        "options": ["12 days", "14 days", "16 days", "18 days"],
+        "answer": 2,
+        "explain": "Correct: 16 days per 12 months (Legal ID 71)."
+      },
+      {
+        "q": "Scenario: Employer refuses maternity leave to an eligible worker. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: It’s an offence; court can order payment/penalties (Legal ID 74)."
+      },
+      {
+        "q": "Scenario: You work on a rest day > half normal hours. Compensation?",
+        "options": ["No extra pay", "Half-day pay only", "1 day’s wages (monthly/weekly) or 2 days (daily/hourly)", "Normal rate only"],
+        "answer": 2,
+        "explain": "Correct: Compensation depends on pay basis; exceeding half normal hours triggers higher pay (Legal ID 69)."
+      },
+      {
+        "q": "Scenario: Public holiday falls on your rest day. What happens?",
+        "options": ["Nothing", "Next working day becomes a paid holiday", "Lose the holiday", "Take leave"],
+        "answer": 1,
+        "explain": "Correct: Next working day becomes a paid public holiday (Legal ID 70)."
+      },
+      {
+        "q": "Sick leave entitlement for < 2 years of service?",
+        "options": ["8 days", "14 days", "18 days", "22 days"],
+        "answer": 1,
+        "explain": "Correct: 14 days per year; higher entitlements for longer service/hospitalisation (Legal ID 72)."
+      }
+    ]
+  },
+  "passport_retention": {
+    "title": "Passport Retention",
+    "questions": [
+      {
+        "q": "Can an employer legally keep your passport?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Employers cannot keep passports; only proper authority can (Legal ID 35)."
+      },
+      {
+        "q": "Who may lawfully hold your passport?",
+        "options": ["Employer", "You and immigration authority with legal approval", "Supervisor", "Recruitment agent"],
+        "answer": 1,
+        "explain": "Correct: Only the worker or proper authority (Legal ID 35)."
+      },
+      {
+        "q": "Scenario: Employer keeps passport for 'safekeeping' until contract ends. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Still illegal; passport must remain with worker (Legal ID 35)."
+      },
+      {
+        "q": "If your passport is kept illegally, that is…",
+        "options": ["Allowed", "Against the law", "Optional", "Company policy"],
+        "answer": 1,
+        "explain": "Correct: It is unlawful (Legal ID 35)."
+      },
+      {
+        "q": "Penalty that can apply for passport/labour violations (when no specific penalty stated)?",
+        "options": ["RM5,000", "RM20,000", "RM50,000", "RM100,000"],
+        "answer": 2,
+        "explain": "Correct: General penalty up to RM50,000 (Legal ID 31)."
+      },
+      {
+        "q": "Scenario: You 'agree' to let employer hold passport. Is it safe/legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Workers should keep their own passport; employer retention risks coercion and is not permitted (Legal ID 35)."
+      },
+      {
+        "q": "Scenario: Employer returns your passport only for immigration appointments. Legal?",
+        "options": ["Yes", "No"],
+        "answer": 1,
+        "explain": "Correct: Passport should remain with the worker except when handed to proper authority (Legal ID 35)."
+      },
+      {
+        "q": "If employer refuses to return your passport, what should you do first?",
+        "options": ["Do nothing", "Report to NGO/authorities", "Pay a fee to get it back", "Quit immediately"],
+        "answer": 1,
+        "explain": "Correct: Seek help from NGOs/authorities; retention is illegal (Legal ID 35)."
+      }
+    ]
+  }
+}
